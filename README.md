@@ -1,4 +1,4 @@
-# GoLang Library ver-1.1.0
+# GoLang Library ver-1.2.0
 
 常用 golang 函式庫定義
 
@@ -8,6 +8,4 @@
 
 - miscellaneous: 常用函式定義
 
-- space: 空間函式
-
-- cctv: CCTV影像和空間轉換算式
+- dbquery: 資料庫連線及讀取欄位函式
