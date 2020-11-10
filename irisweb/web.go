@@ -13,7 +13,7 @@ type Web interface {
 	GetStaticPaths(name string) (StaticPath, error)
 	RemoveFileFromStaticFileString(fileString string) error
 	SetRoutes(routes []Route) error
-	SetStaticPaths(name string, path StaticPath, options iris.DirOptions) error
+	SetStaticPaths(name string, path StaticPath, options ...iris.DirOptions) error
 	StaticFileStringToFile(fileString string) (StaticFile, error)
 	StaticFileToString(file StaticFile) string
 	StaticFileToURL(file StaticFile) string
