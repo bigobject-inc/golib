@@ -5,6 +5,7 @@ import (
 	"github.com/bigobject-inc/golib/irisweb"
 	"github.com/bigobject-inc/golib/logger"
 	"github.com/bigobject-inc/golib/miscellaneous"
+	"github.com/bigobject-inc/golib/websocket"
 )
 
 // GoLibrary golang library service
@@ -15,6 +16,7 @@ type GoLibrary interface {
 	NewRotationLogger(loggerFile, loggerLevel string) (logger.Logger, error)
 	NewWeb(l logger.Logger, conf irisweb.Configure, rootPath string) (irisweb.Web, error)
 	NewWebController(path, method, name, summary string) (irisweb.Controller, error)
+	NewWebSocket(logger logger.Logger, settings websocket.Settings) (websocket.Websocket, error)
 	NewPostgres(username, password, ip, port, database string) dbquery.Dbquery
 	NewBO(username, password, ip, port, database string) dbquery.Dbquery
 	NewBOQuery(username, password, ip, port, database string) dbquery.Boquery
