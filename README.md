@@ -1,4 +1,4 @@
-# GoLang Library ver-1.3.0
+# GoLang Library ver-1.3.1
 
 常用 golang 函式庫定義
 
@@ -10,4 +10,6 @@
 
 - dbquery: 資料庫連線及讀取欄位函式
 
-- websocket: 處理 Websocket 連線
+- websocket: Websocket 服務端
+
+- websocket client: Websocket 客戶端
