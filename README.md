@@ -10,4 +10,6 @@
 
 - dbquery: 資料庫連線及讀取欄位函式
 
-- websocket: 處理 Websocket 連線
+- websocket: Websocket 服務端
+
+- websocket client: Websocket 客戶端
