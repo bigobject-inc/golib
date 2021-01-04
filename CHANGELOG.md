@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.3.2] - 2021-01-04
+
+### Changed
+
+- Websocket client add func SendText
+
 ## [v1.3.1] - 2020-12-31
 
 ### Added
@@ -82,6 +88,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add logger
 - Add miscellaneous
 
+[v1.3.2]: https://github.com/bigobject-inc/golib/archive/v1.3.2.zip
 [v1.3.1]: https://github.com/bigobject-inc/golib/archive/v1.3.1.zip
 [v1.3.0]: https://github.com/bigobject-inc/golib/archive/v1.3.0.zip
 [v1.2.2]: https://github.com/bigobject-inc/golib/archive/v1.2.2.zip
