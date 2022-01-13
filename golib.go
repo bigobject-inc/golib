@@ -14,7 +14,7 @@ type GoLibrary interface {
 	GetServMiscellaneous() miscellaneous.Miscellaneous
 	GetVersion() string
 	NewLogger(loggerFile, loggerLevel string) (logger.Logger, logger.Defer, error)
-	NewRotationLogger(loggerFile, loggerLevel string, maxAge float64) (logger.Logger, error)
+	NewRotationLogger(loggerFile, loggerLevel string, maxAge, rotateTime float64) (logger.Logger, error)
 	NewWeb(l logger.Logger, conf irisweb.Configure, rootPath string) (irisweb.Web, error)
 	NewWebController(path, method, name, summary string) (irisweb.Controller, error)
 	NewWebSocket(logger logger.Logger, settings websocket.Settings) (websocket.Websocket, error)
