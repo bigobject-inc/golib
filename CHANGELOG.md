@@ -7,11 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-## [v1.4.1] - 2022-01-13
+## [v1.4.2] - 2022-01-13
 
 ### Added
 
 - add Child, SetPrefix, Clone in logger.
+- add parameter surviveDay to NewRotationLogger()
 
 
 ## [v1.4.0] - 2021-03-18
@@ -104,7 +105,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add miscellaneous
 
 
-[v1.4.1]: https://github.com/bigobject-inc/golib/archive/v1.4.1.zip
+[v1.4.2]: https://github.com/bigobject-inc/golib/archive/v1.4.2.zip
 [v1.4.0]: https://github.com/bigobject-inc/golib/archive/v1.4.0.zip
 [v1.3.2]: https://github.com/bigobject-inc/golib/archive/v1.3.2.zip
 [v1.3.1]: https://github.com/bigobject-inc/golib/archive/v1.3.1.zip
