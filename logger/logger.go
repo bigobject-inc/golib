@@ -1,5 +1,9 @@
 package logger
 
+import (
+	"github.com/kataras/golog"
+)
+
 // Logger logger
 type Logger interface {
 	Fatal(v ...interface{})
@@ -12,4 +16,8 @@ type Logger interface {
 	Infof(format string, args ...interface{})
 	Debug(v ...interface{})
 	Debugf(format string, args ...interface{})
+
+	Child(interface{}) *golog.Logger
+	SetPrefix(s string) *golog.Logger
+	Clone() *golog.Logger
 }
