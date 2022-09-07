@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.4.5] - 2022-09-07
 
 ### Added
-- add SSLPort to irisweb.Configure.
+- add ssl conf to irisweb.Configure.
 
 
 ## [v1.4.4] - 2022-01-13

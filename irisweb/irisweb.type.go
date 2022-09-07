@@ -4,12 +4,18 @@ import (
 	"github.com/kataras/iris/v12"
 )
 
+type SSLConfig struct {
+	Port     int    `json:"port"`
+	KeyFile  string `json:"keyFile"`
+	CertFile string `json:"certFile"`
+}
+
 // Configure web configure
 type Configure struct {
-	Host    string             `json:"host"`
-	Port    int                `json:"port"`
-	SSLPort *int               `json:"sslPort,omitempty"`
-	Iris    iris.Configuration `json:"iris"`
+	Host string             `json:"host"`
+	Port int                `json:"port"`
+	SSL  *SSLConfig         `json:"ssl"`
+	Iris iris.Configuration `json:"iris"`
 }
 
 // HandleErrorParams web handle error params
