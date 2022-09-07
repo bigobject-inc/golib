@@ -6,9 +6,10 @@ import (
 
 // Configure web configure
 type Configure struct {
-	Host string             `json:"host"`
-	Port int                `json:"port"`
-	Iris iris.Configuration `json:"iris"`
+	Host    string             `json:"host"`
+	Port    int                `json:"port"`
+	SSLPort *int               `json:"sslPort,omitempty"`
+	Iris    iris.Configuration `json:"iris"`
 }
 
 // HandleErrorParams web handle error params
